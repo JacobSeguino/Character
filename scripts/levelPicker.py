@@ -1,3 +1,15 @@
+"""
+This scrips goal is to roll levels for character to uses it
+import levelPicker and call the function
+levelPickerForRando() if you and want a random 1-20
+
+or you can call 
+levelPickerForEncounter(cr) and in cr add the 
+Chalanage Rating (CR) of the party and it will give you
+a random roll that is between two less or two more 
+the the parties current CR.
+"""
+
 import random
 
 failureMessage = 'that was not 1-20'
@@ -39,6 +51,3 @@ def crTester(cr):
         return
 
     levelPickerForEncounter(int(cr))
-
-if __name__ == '__main__':
-    requestMessage()
