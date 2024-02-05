@@ -1,3 +1,8 @@
+"""
+Currently this script picks name from a yaml list
+feel free to update it.
+"""
+
 import random
 import yaml
 import sys
@@ -19,7 +24,7 @@ def namePicker(choice):
     if choice == "full" or choice == "full name":
         randomName(lastNameYml, race)
 
-if __name__ == '__main__':
-    print('full name or single')
-    x = input()
-    namePicker(x)
+# if __name__ == '__main__':
+#     print('full name or single')
+#     x = input()
+#     namePicker(x)
